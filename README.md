@@ -19,9 +19,9 @@ DATABASE_URL=postgres://USER:PASSWORD@HOST:PORT/NAME
 ```
 False(отключит отладочный режим), True(включит отладочный режим)
 ```
-DEBUG='отображение отладочной информации'.  
+DEBUG=False.  
 ```
-Служит для шифрования данных [подробнее](https://python-code.dev/articles/3266)
+Для шифрования данных [подробнее](https://python-code.dev/articles/3266)
 ```
 SECRET_KEY=ваш секретный ключ
 ```
