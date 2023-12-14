@@ -11,6 +11,7 @@ replit*
 .pythonlibs/
 *.toml
 *.lock
+.gitattributes
 
 # C extensions
 *.so
