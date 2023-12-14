@@ -14,10 +14,17 @@ pip install -r requirements.txt
 Создайте файл ".env" в вашей деректории проекта откройте его в любом текстовом редакторе. Вам понадобятся следующие переменные окружения:
 ```
 DATABASE_URL=postgres://USER:PASSWORD@HOST:PORT/NAME (замените USER,PASSWORD,HOST,PORT,NAME на свои данные БД)
-SECRET_KEY=ваш секретный ключ, служит для шифрования данных [подробнее](https://python-code.dev/articles/3266)
-ALLOWED_HOSTS='имена хостов/доменов' для безопасности вашего сайта [подробнее](https://docs.djangoproject.com/en/3.1/ref/settings/#allowed-hosts)
 DEBUG='отображение отладочной информации'. False(отключит отладочный режим), True(включит отладочный режим). 
 ```
+```
+SECRET_KEY=ваш секретный ключ
+```
+Служит для шифрования данных [подробнее](https://python-code.dev/articles/3266)
+```
+ALLOWED_HOSTS='имена хостов/доменов' 
+```
+Для безопасности вашего сайта [подробнее](https://docs.djangoproject.com/en/3.1/ref/settings/#allowed-hosts)
+
 
 ### Пример запуска кода
 
